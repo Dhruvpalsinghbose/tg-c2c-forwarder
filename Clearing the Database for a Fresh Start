@@ -1,0 +1,6 @@
+# Option 1: Using SQLite3 command line
+sqlite3 ~/forwarded_messages.db "DELETE FROM messages;"
+
+# Option 2: Using Python directly
+python3 -c "import sqlite3; conn = sqlite3.connect('~/forwarded_messages.db'); conn.execute('DELETE FROM messages;'); conn.commit(); conn.close(); print('Database cleared successfully');"
+
