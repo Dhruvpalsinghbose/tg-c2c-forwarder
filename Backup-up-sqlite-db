@@ -1,0 +1,4 @@
+cp ~/forwarded_messages.db ~/forwarded_messages.db.backup
+# then delete 
+sqlite3 forwarded_messages.db "DELETE FROM messages;"
+ DELETE FROM retry_queue;
