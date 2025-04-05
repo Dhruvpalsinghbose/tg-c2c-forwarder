@@ -1,0 +1,23 @@
+# Telegram API credentials (get from https://my.telegram.org/apps)
+API_ID=123456
+API_HASH=abcdef1234567890abcdef1234567890
+PHONE_NUMBER=+1234567890
+BOT_TOKEN=1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+# Channel configuration
+SOURCE_CHANNEL=-1001234567890  # Source channel ID (with -100 prefix)
+DEST_CHANNEL=-1009876543210    # Destination channel ID (with -100 prefix)
+ADMIN_CHAT_ID=123456789        # Your personal Telegram ID for receiving alerts
+
+# Message range to forward
+START_MESSAGE=1000             # First message ID to forward
+END_MESSAGE=9999               # Last message ID to forward (or largest possible number)
+
+# Caption settings (true/false or 1/0)
+USE_ORIGINAL_CAPTIONS=true     # Use original message text in captions
+USE_FILENAME_AS_CAPTION=true   # Use filename in captions
+APPLY_CUSTOM_CAPTION=true      # Add custom text to captions
+
+# Caption customization
+CAPTION_URL=https://linktr.ee/YourLink  # URL shown in captions
+CUSTOM_CAPTION_PROMO=Follow @YourChannel for more content!  # Custom text added at end
