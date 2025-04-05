@@ -1,0 +1,21 @@
+# Telegram API credentials
+API_ID=123456                  # Your Telegram API ID (integer) from https://my.telegram.org
+API_HASH=abcdef1234567890      # Your Telegram API hash (string) from https://my.telegram.org
+PHONE_NUMBER=+1234567890       # Phone number associated with your Telegram account
+BOT_TOKEN=1234567890:ABCDEF    # Bot token from @BotFather
+
+# Channel configuration
+SOURCE_CHANNEL=-1001234567890  # Source channel ID (negative integer for channels)
+DEST_CHANNEL=-1009876543210    # Destination channel ID (negative integer for channels)
+ADMIN_CHAT_ID=1234567          # Your Telegram user ID for receiving admin alerts
+
+# Message range configuration
+START_MESSAGE=1000             # First message ID to forward
+END_MESSAGE=2000               # Last message ID to forward
+
+# Optional caption customization
+CAPTION_URL=https://linktr.ee/CoursesHubIndia  # URL to be used in captions
+CUSTOM_CAPTION_PROMO=Follow us for more content!  # Promotional text for captions
+USE_ORIGINAL_CAPTIONS=true                       # Whether to use original captions
+USE_FILENAME_AS_CAPTION=false                    # Whether to use filenames as captions
+APPLY_CUSTOM_CAPTION=true                        # Whether to apply custom promotion text
